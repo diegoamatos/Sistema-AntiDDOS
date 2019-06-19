@@ -37,7 +37,7 @@ Em cada conexão, o sistema salva temporariamente o endereço IP do cliente e mo
 ?>
 ---- O CONTEÚDO DA PÁGINA HTML ----
 ```
-<img src="_antiDDOS/view/img/ddos_.PNG">
+<img src="_antiDDOS/view/img/ddos_.png">
 
 ## Autor
 
