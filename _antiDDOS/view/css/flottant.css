@@ -1,0 +1,59 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900);
+body{
+	font-family: 'Lato', sans-serif;
+	background: rgba(230,230,230,0.5);
+}
+h1, h3 {
+	color:#333;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    line-height: 1.0em;
+    text-transform: none;
+	letter-spacing: 0.5px;
+}
+p {
+	color: #959595;
+	font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.6em;
+}
+img {
+	border:1px solid #999999;
+	border-radius: 100%;
+	width:200px;
+	margin-bottom: 10px;
+}
+a:link, a:visited {
+    text-decoration: none;
+}
+a {
+    color: #ee3b24;
+}
+a:hover {
+    text-decoration: none;
+    color: #959595;
+}
+a:active, a:hover {
+    outline: 0;
+}
+.container{
+	margin-top: 200px;
+	max-width: 450px;
+	text-align: center;
+	padding: 10px;
+	padding-top: 25px;
+	background: white;
+	transition: all 0.4s;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.45);
+	transform: scale(1);
+}
+.container:hover{
+	transition: all 0.4s;
+	box-shadow: 0 8px 11px rgba(0,0,0,0.5);
+	transform: scale(1.2);
+}
+.gap-10 {
+    clear: both;
+    height: 10px;
+}

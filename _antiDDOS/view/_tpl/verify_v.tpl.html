@@ -1,0 +1,68 @@
+<style type="text/css">
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900);
+h3 {
+	color:#333;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    line-height: 1.0em;
+    text-transform: none;
+	letter-spacing: 0.5px;
+}
+img {
+	margin-bottom: 1.2em;
+}
+input[type=button]:hover{
+	border: 1px solid #4CAF50;
+	background-color: #fff; /* Green */
+  	color: #666;
+}
+nav{
+	background: url(_antiDDOS/view/img/pentagon.jpg);
+	background-repeat: repeat-x;
+	color: white;
+	text-align:center;
+	position: fixed;
+	top:30%;
+	left:0;
+	width: 100%;
+}
+.code{
+	padding: 7px;
+	font-size: 23px;
+}
+.clickmoi{
+	border: 1px solid #4CAF50;
+	padding: 10px;
+	font-size: 23px;
+	border-radius: 8px;
+	color:#fff;
+	background: #4CAF50;
+	-webkit-transition-duration: 0.4s; /* Safari */
+  	transition-duration: 0.4s;
+	cursor: pointer;
+}
+.border {
+	border: 1px solid #666;
+	background-color:#f4f4f4;
+	max-width:400px;
+	border-radius: 8px;
+	margin-bottom: 1.2em;
+}
+</style>
+<center>
+
+</center>
+<nav>
+	<center>
+    	<div class="border">
+			<h3>Sistema AntiDDOS ativado.</h3>
+        </div>
+		<form method="post" name="#nom_form#">
+			<input type="hidden" name="#variable_du_form#" value="JnYHSNp">
+			<img height="130" width="400" src="_antiDDOS/anti_ddos/securitecode.php"><br>
+			<input type="text" name="valCAPTCHA" class="code" placeholder="Digite o codigo da imagem.">
+			<input type="button" class="clickmoi" onclick="go()" value="Verificar">
+		</form>
+	</center>
+</nav>
+<script type="text/javascript">function go(){ document.#nom_form#.submit(); }</script>
