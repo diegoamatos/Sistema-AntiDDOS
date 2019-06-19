@@ -45,7 +45,7 @@ Em cada conexão, o sistema salva temporariamente o endereço IP do cliente e mo
 
 ## LICENSE
 
-[MIT License](https://github.com/dinhobala/Sistema-Anti-DDOS/blob/master/LICENSE)
+[MIT License](https://github.com/dinhobala/Sistema-Anti-DDOS/LICENSE)
 
 PS: Deixe seu feedback para tornar este projeto mais poderoso do que nunca! ;-)
 
